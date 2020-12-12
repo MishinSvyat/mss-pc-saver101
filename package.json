@@ -1,5 +1,6 @@
 {
     "name": "mss-pc-saver101",
+    "homepage": "https://mishinsvyat.github.io/mss-pc-saver101",
     "version": "0.0.0",
     "main": "index.js",
     "repository": "git@github.com:MishinSvyat/mss-pc-saver101.git",
@@ -12,7 +13,7 @@
         "build": "webpack --mode production",
         "check-types": "tsc",
         "predeploy": "yarn run build",
-        "deploy": "gh-pages -d build"
+        "deploy": "gh-pages -d dist"
     },
     "devDependencies": {
         "@babel/core": "^7.12.10",
