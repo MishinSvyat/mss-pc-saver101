@@ -1,0 +1,8 @@
+{
+  "name": "mss-pc-saver101",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:MishinSvyat/mss-pc-saver101.git",
+  "author": "Svyatoslav <mishinss@vtblife.ru>",
+  "license": "MIT"
+}
