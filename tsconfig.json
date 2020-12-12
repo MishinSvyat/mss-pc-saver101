@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "alwaysStrict": true,
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "declaration": true,
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "es2017",
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "incremental": true,
+        "jsx": "react",
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "skipLibCheck": true,
+        "outDir": "dist",
+        "baseUrl": "./",
+        "types": ["node", "webpack-env", "webpack", "jest"]
+    },
+    "include": ["src", "global.d.ts"],
+    "exclude": ["./node_modules", "dist", "build"]
+}
