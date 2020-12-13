@@ -9,7 +9,7 @@ export const App: React.FC = () => {
             <h1>count {count}</h1>
             <button onClick={() => setCount(count + 1)}>Click me</button>
             <p className={styles.text}>
-                hello 101 <span className={styles.grey}>gre131231231y</span>
+                hello 101 <span className={styles.grey}>666666666</span>
             </p>
         </div>
     );
