@@ -12,7 +12,7 @@
         "dev": "webpack serve --mode development --open --hot",
         "build": "webpack --mode production",
         "check-types": "tsc",
-        "predeploy": "yarn run build",
+        "predeploy": "npm run build",
         "deploy": "gh-pages -d dist"
     },
     "devDependencies": {
