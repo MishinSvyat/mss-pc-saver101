@@ -1,16 +1,22 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import styles from './app.css';
+import { Layout } from '../components';
+import { URLS } from '../consts';
+import { MainPage } from './main-page';
+import { Page1 } from './page1';
+import { Page2 } from './page2';
 
 export const App: React.FC = () => {
-    const [count, setCount] = useState(0);
     return (
-        <div>
-            <h1>count {count}</h1>
-            <button onClick={() => setCount(count + 1)}>Click me</button>
-            <p className={styles.text}>
-                hello 101 <span className={styles.grey}>666666666</span>
-            </p>
-        </div>
+        <Router>
+            <Layout>
+                <Switch>
+                    <Route path={URLS.page1} component={Page1} />
+                    <Route path={URLS.page2} component={Page2} />
+                    <Route path="/" component={MainPage} />
+                </Switch>
+            </Layout>
+        </Router>
     );
 };

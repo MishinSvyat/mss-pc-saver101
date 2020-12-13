@@ -12,7 +12,7 @@
         "dev": "webpack serve --mode development --open --hot",
         "build": "webpack --mode production",
         "check-types": "tsc",
-        "predeploy": "npm run build",
+        "predeploy": "yarn run build",
         "deploy": "gh-pages -d dist"
     },
     "devDependencies": {
@@ -28,6 +28,7 @@
         "@babel/preset-typescript": "^7.12.7",
         "@types/react": "^17.0.0",
         "@types/react-dom": "^17.0.0",
+        "@types/react-router-dom": "^5.1.6",
         "autoprefixer": "^10.1.0",
         "babel-loader": "^8.2.2",
         "css-loader": "^5.0.1",
@@ -54,6 +55,8 @@
         "webpack-dev-server": "^3.11.0"
     },
     "dependencies": {
+        "@material-ui/core": "^4.11.2",
+        "@material-ui/icons": "^4.11.2",
         "react": "^17.0.1",
         "react-dom": "^17.0.1",
         "react-router-dom": "^5.2.0"
